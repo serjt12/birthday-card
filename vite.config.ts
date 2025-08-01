@@ -5,6 +5,7 @@ import { NodeModulesPolyfillPlugin } from '@esbuild-plugins/node-modules-polyfil
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/birthday-card/',
   plugins: [react()],
   resolve: {
     alias: {
